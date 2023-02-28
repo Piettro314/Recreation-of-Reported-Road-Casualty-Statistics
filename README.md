@@ -8,3 +8,8 @@ ETL was then done using SSIS
 Data validation proceeded with SSMS using SQL 
 
 PowerBI desktop for recreation of dashboard
+
+In this repository you will find 3 folders with
+  1) Data- which contains all the data used for the project 
+  2) DDL- Data definition Language scripts for Exporting, transforming and loading 
+  3) SQL code used for data validation 
