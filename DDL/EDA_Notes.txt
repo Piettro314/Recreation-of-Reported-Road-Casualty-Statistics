@@ -1,0 +1,30 @@
+#Total size #562,439 rows 25 Columns
+1) accident year - dim.cal #5
+2)accident_reference- dim.accident_reference #558099 'not given'
+3)police_force- dim.police_force #52 -51 in dim missing'99'
+4)accident_severity- dim.accident_severity #3
+5)number_of_vehicles- FACT - max-24 min-1 mean-1.84 
+				   Total vehicle- 1,035,534
+6)number_of_casualities- FACT - max-59 min-1 mean-1.29
+					Total casualities-728,541
+7)Latitude- FACT- #483670
+8)Longtitude- FACT- #505998
+9)date- dim.cal #1826
+10)day_of_week- dim.cal #7
+11)speed_limit- FACT Mean-36.74 Max 70 Min -1 (#92) Secondmin-30
+12)pedestrian_crossing_human_control- dim.pedestrian_crossing_human_control
+						#5 -4 in dim missing'9'
+13)pedestrian_crossing_physical_facilities- dim.pedestrian_crossing_physical_facilities
+						#8 -7 in dim missing'9'
+14)light_conditions- dim.light_conditions #6
+15)weather _conditions- dim.weather_conditions #10
+16)road_surface_conditions- dim.road_surface_conditions #7
+17)Special conditions- dim.special conditions #10
+18)Carriageway hazards- dim carriageway #8
+19)Urban_rural= dim urban rural #4 
+20)Time- dim.time
+21)local authority ons district
+22)local authority highway
+23)local authority district
+24)roadtype
+25)police_officer_attend- dim.policeofficer attended #4
